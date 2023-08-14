@@ -27,7 +27,7 @@ const RenderCard = ({data})=>{
 }
 
 const Home = () => {
-    const [searchTerm, setSearchTerm] = useState('Cyberpunk cityscape, dystopian, futuristic, night, cybernetics, 3D, art')
+    const [searchTerm, setSearchTerm] = useState('Cyberpunk street scene with heavy rain')
     const [loading, setLoading] = useState(false)
     const [aiImageResult, setAIImageResult] = useState([])
 
